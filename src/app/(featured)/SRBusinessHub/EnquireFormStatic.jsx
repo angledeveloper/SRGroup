@@ -4,8 +4,10 @@ import Link from 'next/link';
 import GlobalButton from '@/app/GlobalButton';
 import { Icon } from '@iconify/react';
 import BrochureForm from './BrochureForm';
+import { useUTMTracking } from '@/hooks/useUTMTracking';
 
 export default function EnquireFormStatic(props) {
+  const { getPayload } = useUTMTracking();
   const [FloorFormData, setFloorPlanFormData] = useState({
     name: '',
     userEmail: '',
@@ -43,6 +45,7 @@ export default function EnquireFormStatic(props) {
       setFloorPlanLoading(true);
       setFloorPlanSuccess(false);
       try {
+        const attribution = getPayload();
         const response = await fetch('/api/contact', {
           method: 'POST',
           headers: {
@@ -54,6 +57,7 @@ export default function EnquireFormStatic(props) {
             phone: FloorFormData.phone,
             message: FloorFormData.message,
             subject: FloorFormData.subject,
+            ...attribution,
           }),
         });
 

@@ -3,6 +3,7 @@ import GlobalFooter from './GlobalFooter';
 import './globals.css';
 import ProviderShell from './ProviderShell';
 import Script from 'next/script';
+import UTMInit from './UTMInit';
 
 export const metadata = {
   title:
@@ -64,6 +65,7 @@ export default function RootLayout({ children }) {
           {children}
           <GlobalFooter />
         </ProviderShell>
+        <UTMInit />
       </body>
     </html>
   );

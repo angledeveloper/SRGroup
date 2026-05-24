@@ -2,8 +2,10 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import GlobalButton from '@/app/GlobalButton';
+import { useUTMTracking } from '@/hooks/useUTMTracking';
 
 export default function BrochureForm(props) {
+  const { getPayload } = useUTMTracking();
   const [FloorFormData, setFloorPlanFormData] = useState({
     name: '',
     userEmail: '',
@@ -39,6 +41,7 @@ export default function BrochureForm(props) {
       setFloorPlanLoading(true);
       setFloorPlanSuccess(false);
       try {
+        const attribution = getPayload();
         const response = await fetch('/api/contact', {
           method: 'POST',
           headers: {
@@ -50,6 +53,7 @@ export default function BrochureForm(props) {
             phone: FloorFormData.phone,
             message: `Floor plan requested for ${props.Title}`,
             subject: FloorFormData.subject,
+            ...attribution,
           }),
         });
 
