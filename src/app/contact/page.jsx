@@ -2,6 +2,7 @@
 import { useRouter } from 'next/navigation';
 import GlobalButton from '../GlobalButton';
 import { useState } from 'react';
+import Link from 'next/link';
 import Testimonials from './Testimonials';
 
 export default function Contact() {
@@ -17,6 +18,8 @@ export default function Contact() {
   const [messageError, setMessageError] = useState(false);
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
+  const [consent, setConsent] = useState(false);
+  const [consentWarning, setConsentWarning] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -35,6 +38,11 @@ export default function Contact() {
     }
     if (!data.message) {
       setMessageError(true);
+      return;
+    }
+
+    if (!consent) {
+      setConsentWarning(true);
       return;
     }
 
@@ -62,6 +70,7 @@ export default function Contact() {
             phone: '',
             message: '',
           });
+          setConsent(false);
           setLoading(false);
           // timeout to show success message
           setTimeout(() => {
@@ -172,8 +181,35 @@ export default function Contact() {
               className=' mt-4 w-full rounded-full px-6  py-2 text-base font-medium  md:h-fit md:w-28'
               onClick={handleSubmit}
             >
-              {loading ? 'Loading...' : 'Submit' /* Added loading state */}
+              {loading ? 'Loading...' : 'Submit'}
             </GlobalButton>
+            <label className='mt-3 flex items-start gap-2 text-[11px] text-neutral-500'>
+              <input
+                type='checkbox'
+                checked={consent}
+                onChange={(e) => {
+                  setConsent(e.target.checked);
+                  setConsentWarning(false);
+                }}
+                className='mt-0.5 size-3 shrink-0 rounded border-neutral-300 text-blue-200 focus:ring-blue-200'
+              />
+              <span>
+                I agree to SR Group&apos;s{' '}
+                <Link href='/privacy' className='underline hover:text-neutral-700'>
+                  Privacy Policy
+                </Link>{' '}
+                and{' '}
+                <Link href='/terms' className='underline hover:text-neutral-700'>
+                  Terms &amp; Conditions
+                </Link>
+                .
+              </span>
+            </label>
+            {consentWarning && (
+              <span className='text-[11px] text-red-500'>
+                Please agree to the Privacy Policy and Terms &amp; Conditions.
+              </span>
+            )}
           </form>
         </div>
 

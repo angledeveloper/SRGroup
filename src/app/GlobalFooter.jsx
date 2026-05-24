@@ -4,8 +4,10 @@ import React from 'react';
 import { useEffect, useState } from 'react';
 import GlobalButton from './GlobalButton';
 import Link from 'next/link';
+import { useUTMTracking } from '@/hooks/useUTMTracking';
 
 export default function GlobalFooter() {
+  const { getPayload } = useUTMTracking();
   const [data, setData] = useState({
     name: '',
     userEmail: '',
@@ -19,6 +21,8 @@ export default function GlobalFooter() {
   const [messageError, setMessageError] = useState(false);
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
+  const [consent, setConsent] = useState(false);
+  const [consentWarning, setConsentWarning] = useState(false);
   const [isHydrated, setIsHydrated] = useState(false);
 
   useEffect(() => {
@@ -45,9 +49,15 @@ export default function GlobalFooter() {
       return;
     }
 
+    if (!consent) {
+      setConsentWarning(true);
+      return;
+    }
+
     if (!nameError && !emailError && !phoneError && !messageError) {
       setLoading(true);
       try {
+        const attribution = getPayload();
         const response = await fetch('/api/contact', {
           method: 'POST',
           headers: {
@@ -58,6 +68,7 @@ export default function GlobalFooter() {
             userEmail: data.userEmail,
             phone: data.phone,
             message: data.message,
+            ...attribution,
           }),
         });
 
@@ -69,6 +80,7 @@ export default function GlobalFooter() {
             phone: '',
             message: '',
           });
+          setConsent(false);
           setLoading(false);
           // timeout to show success message
           setTimeout(() => {
@@ -231,11 +243,38 @@ export default function GlobalFooter() {
                 </div>
                 <GlobalButton
                   color='white'
-                  className=' mt-4 w-full rounded-full px-6  py-2 text-base font-medium md:hidden md:h-fit md:w-28'
+                  className=' mt-4 w-full rounded-full px-6  py-2 text-base font-medium  md:hidden md:h-fit md:w-28'
                   onClick={handleSubmit}
                 >
-                  {loading ? 'Loading...' : 'Submit' /* Added loading state */}
+                  {loading ? 'Loading...' : 'Submit'}
                 </GlobalButton>
+                <label className='mt-3 flex items-start gap-2 text-[11px] text-neutral-400'>
+              <input
+                type='checkbox'
+                checked={consent}
+                onChange={(e) => {
+                  setConsent(e.target.checked);
+                  setConsentWarning(false);
+                }}
+                className='mt-0.5 size-3 shrink-0 rounded border-neutral-500 text-yellow-200 focus:ring-yellow-200'
+              />
+              <span>
+                I agree to SR Group&apos;s{' '}
+                <Link href='/privacy' className='underline hover:text-neutral-200'>
+                  Privacy Policy
+                </Link>{' '}
+                and{' '}
+                <Link href='/terms' className='underline hover:text-neutral-200'>
+                  Terms &amp; Conditions
+                </Link>
+                .
+              </span>
+            </label>
+            {consentWarning && (
+              <span className='text-[11px] text-red-400'>
+                Please agree to the Privacy Policy and Terms &amp; Conditions.
+              </span>
+            )}
               </form>
             ) : (
               <div className='max-w-3xl pt-[57px]' aria-hidden='true'>
@@ -318,8 +357,14 @@ export default function GlobalFooter() {
         </p>
       </section>
       <section className=' m-auto mt-10 flex w-full max-w-screen-2xl flex-col items-center justify-between pt-4 text-sm md:flex-row md:text-4xl'>
-        <div>
+        <div className='flex items-center gap-4'>
           <span>SR Group. All rights reserved, 2025</span>
+          <Link href='/privacy' className='text-yellow-200 hover:underline'>
+            Privacy Policy
+          </Link>
+          <Link href='/terms' className='text-yellow-200 hover:underline'>
+            Terms
+          </Link>
         </div>
         <div className=' text-xs'>
           Designed and developed by{' '}

@@ -20,6 +20,8 @@ export default function BrochureForm(props) {
   const [messageError, setMessageError] = useState(false);
   const [floorPlanSuccess, setFloorPlanSuccess] = useState(false);
   const [floorPlanLoading, setFloorPlanLoading] = useState(false);
+  const [consent, setConsent] = useState(false);
+  const [consentWarning, setConsentWarning] = useState(false);
 
   const handleSubmitFloorPlan = async (e) => {
     e.preventDefault();
@@ -34,6 +36,11 @@ export default function BrochureForm(props) {
     }
     if (!FloorFormData.phone) {
       setPhoneError(true);
+      return;
+    }
+
+    if (!consent) {
+      setConsentWarning(true);
       return;
     }
 
@@ -66,6 +73,7 @@ export default function BrochureForm(props) {
             message: '',
             subject: '',
           });
+          setConsent(false);
           setFloorPlanSuccess(true);
           setFloorPlanLoading(false);
           console.log(floorPlanSuccess);
@@ -90,6 +98,7 @@ export default function BrochureForm(props) {
             onClick={() => {
               props.setFloorPlanOpen(false);
               setFloorPlanSuccess(false);
+              setConsent(false);
             }}
             className=' absolute left-0 top-0 size-full bg-black/40 backdrop-blur-md'
           ></div>
@@ -102,6 +111,7 @@ export default function BrochureForm(props) {
                 onClick={() => {
                   props.setFloorPlanOpen(false);
                   setFloorPlanSuccess(false);
+                  setConsent(false);
                 }}
                 className=' cursor-pointer text-2xl'
               >
@@ -207,9 +217,36 @@ export default function BrochureForm(props) {
                   {
                     floorPlanLoading
                       ? 'Loading...'
-                      : 'Submit' /* Added loading state */
+                      : 'Submit'
                   }
                 </GlobalButton>
+                <label className='mt-3 flex items-start gap-2 text-[11px] text-neutral-400'>
+                  <input
+                    type='checkbox'
+                    checked={consent}
+                    onChange={(e) => {
+                      setConsent(e.target.checked);
+                      setConsentWarning(false);
+                    }}
+                    className='mt-0.5 size-3 shrink-0 rounded border-neutral-500 text-yellow-200 focus:ring-yellow-200'
+                  />
+                  <span>
+                    I agree to SR Group&apos;s{' '}
+                    <Link href='/privacy' className='underline hover:text-neutral-600'>
+                      Privacy Policy
+                    </Link>{' '}
+                    and{' '}
+                    <Link href='/terms' className='underline hover:text-neutral-600'>
+                      Terms &amp; Conditions
+                    </Link>
+                    .
+                  </span>
+                </label>
+                {consentWarning && (
+                  <span className='text-[11px] text-red-400'>
+                    Please agree to the Privacy Policy and Terms &amp; Conditions.
+                  </span>
+                )}
               </form>
             )}
           </div>
