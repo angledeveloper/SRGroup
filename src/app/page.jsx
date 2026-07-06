@@ -206,7 +206,7 @@ export default function Home() {
 
   const CardData = [
     {
-      title: 'SR House',
+      title: 'RR Tower',
       image: '/images/SrHouse/SrHouse.webp',
       qrImage: '/images/SrHouse/SrHouseQR.png',
       location: 'Baner, Pune',

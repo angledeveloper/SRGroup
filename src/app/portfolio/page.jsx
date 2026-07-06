@@ -162,7 +162,7 @@ export default function Home() {
 
   const UpComingProjects = [
     {
-      title: 'SR House',
+      title: 'RR Tower',
       image: '/images/SrHouse/SrHouse.webp',
       location: 'Baner, Pune',
       availability: 'In Construction',
