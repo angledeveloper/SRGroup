@@ -31,14 +31,14 @@ export default function Terms() {
         <section className='mb-10'>
           <h2 className='mb-4 text-2xl font-semibold text-neutral-900'>4. Intellectual Property</h2>
           <p className='mb-3 text-sm leading-relaxed text-neutral-600'>
-            All content on this website, including text, images, and graphics, is the property of SR Group and is protected by applicable intellectual property laws.
+            All content on this website, including text, images, and graphics, is the property of RR Landmarks and is protected by applicable intellectual property laws.
           </p>
         </section>
 
         <section className='mb-10'>
           <h2 className='mb-4 text-2xl font-semibold text-neutral-900'>5. Limitation of Liability</h2>
           <p className='mb-3 text-sm leading-relaxed text-neutral-600'>
-            SR Group and its employees shall not be liable for any loss or damage arising from the use of this website or reliance on its content.
+            RR Landmarks and its employees shall not be liable for any loss or damage arising from the use of this website or reliance on its content.
           </p>
         </section>
 

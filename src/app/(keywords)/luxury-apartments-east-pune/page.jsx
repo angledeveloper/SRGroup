@@ -70,14 +70,14 @@ export default function Page() {
               Luxury Apartments in East Pune
             </span>{' '}
             <span className='inline-block p-3 bg-gradient-to-b from-neutral-500  to-neutral-100 to-70% bg-clip-text text-transparent'>
-              SR Group Homes
+              RR Landmarks Homes
             </span>
           </h1>
         </section>
       </section>
       <section className='mx-auto my-12 flex w-full max-w-screen-2xl flex-col gap-4 p-3 text-2xl font-medium md:text-4xl'>
         <p ref={introTextRef} className='text-black'>
-          SR Group’s developments such as SR Akshatam in Keshav Nagar lie in the
+          RR Landmarks’ developments such as SR Akshatam in Keshav Nagar lie in the
           heart of East Pune’s growth corridor, offering luxury 2 BHK and 3 BHK
           flats in East Pune. This region, encompassing Kharadi, Viman Nagar,
           and Mundhwa, has rapidly transformed into a high-value residential
@@ -119,7 +119,7 @@ export default function Page() {
               <li>Excellent connectivity to Pune Airport and Koregaon Park</li>
             </ul>
 
-            <p className=' mt-2 font-bold'>SR Group Edge:</p>
+            <p className=' mt-2 font-bold'>RR Landmarks Edge:</p>
             <ul className='list-disc pl-5 '>
               <li>Vastu-compliant, eco-conscious designs</li>
               <li>Use of premium materials and architectural finesse</li>
@@ -128,7 +128,7 @@ export default function Page() {
 
             <p className=' mt-2'>
               Choose an address that balances sophistication with convenience:
-              SR Group’s luxury apartments in East Pune are where premium living
+              RR Landmarks’ luxury apartments in East Pune are where premium living
               truly begins.
             </p>
           </div>
@@ -203,10 +203,10 @@ export default function Page() {
             {/* Q2 */}
             <div className='rounded-xl bg-white/80 border border-blue-100 p-5 md:p-6 shadow-sm'>
               <h4 className='text-base md:text-lg font-semibold text-blue-200'>
-                Q2. Why choose SR Group for luxury apartments in East Pune?
+                Q2. Why choose RR Landmarks for luxury apartments in East Pune?
               </h4>
               <p className='mt-2 text-sm md:text-base text-black leading-relaxed'>
-                SR Group’s developments focus on high-quality construction,
+                RR Landmarks’ developments focus on high-quality construction,
                 design aesthetics, and convenient locations to deliver a
                 balanced lifestyle.
               </p>
@@ -227,10 +227,10 @@ export default function Page() {
             {/* Q4 */}
             <div className='rounded-xl bg-white/80 border border-blue-100 p-5 md:p-6 shadow-sm'>
               <h4 className='text-base md:text-lg font-semibold text-blue-200'>
-                Q4. Are SR Group’s East Pune projects suitable for NRIs?
+                Q4. Are RR Landmarks’ East Pune projects suitable for NRIs?
               </h4>
               <p className='mt-2 text-sm md:text-base text-black leading-relaxed'>
-                Yes, many NRIs prefer investing in SR Group projects due to
+                Yes, many NRIs prefer investing in RR Landmarks projects due to
                 assured appreciation, rental demand, and strong resale
                 potential.
               </p>
@@ -239,10 +239,10 @@ export default function Page() {
             {/* Q5 */}
             <div className='rounded-xl bg-white/80 border border-blue-100 p-5 md:p-6 shadow-sm'>
               <h4 className='text-base md:text-lg font-semibold text-blue-200'>
-                Q5. Are all SR Group projects in East Pune RERA certified?
+                Q5. Are all RR Landmarks projects in East Pune RERA certified?
               </h4>
               <p className='mt-2 text-sm md:text-base text-black leading-relaxed'>
-                Absolutely, all SR Group projects comply with RERA standards,
+                Absolutely, all RR Landmarks projects comply with RERA standards,
                 ensuring transparency and trust in every transaction.
               </p>
             </div>

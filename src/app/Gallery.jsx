@@ -30,7 +30,7 @@ const GalleryData = [
     title: 'SR Akshatam',
     location: 'Keshav Nagar',
     description:
-      'Introducing SR Akshatam by SR Group; a remarkable mixed-use development in the thriving heart of Pune. Blending the vibrancy of retail and the tranquillity of residential living, SR Akshatam offers a balanced and fulfilling lifestyle for those who seek both luxury and convenience.',
+      'Introducing SR Akshatam by RR Landmarks; a remarkable mixed-use development in the thriving heart of Pune. Blending the vibrancy of retail and the tranquillity of residential living, SR Akshatam offers a balanced and fulfilling lifestyle for those who seek both luxury and convenience.',
     image: Aksahtam,
     id: 'i1qnumx84kepvb4',
     link: '/SrAkshatam',

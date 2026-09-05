@@ -80,7 +80,7 @@ export default function About() {
       <section className=' flex w-full  flex-col gap-4 p-3 text-2xl font-medium md:text-4xl bg-white py-12'>
         <div className='mx-auto max-w-screen-2xl'>
           <p ref={introTextRef} className='text-black'>
-            SR Group specialises in residential and commercial projects and
+            RR Landmarks specialises in residential and commercial projects and
             maintains our on-time delivery commitment. Our layouts, crafted in
             compliance with Good Vastu and Feng Shui principles, ensure harmony
             and prosperity for your family. Lastly, along with good transparency
@@ -182,7 +182,7 @@ export default function About() {
                   Mr. Rajendra Reddy
                 </h4>
                 <p className='mt-1 text-sm md:text-base text-zinc-400 font-regular'>
-                  Managing Director, SR Group
+                  Managing Director, RR Landmarks
                 </p>
 
                 <div className='mt-4 space-y-4 text-black leading-relaxed text-lg'>
@@ -217,7 +217,7 @@ export default function About() {
                   Mr. Shailendra Reddy
                 </h4>
                 <p className='mt-1 text-sm md:text-base text-zinc-400 font-regular'>
-                  Director, SR Group
+                  Director, RR Landmarks
                 </p>
 
                 <div className='mt-4 space-y-4 text-black leading-relaxed text-lg'>
@@ -278,7 +278,7 @@ export default function About() {
                   Mr. Onkar Reddy
                 </h4>
                 <p className='mt-1 text-sm md:text-base text-zinc-400 font-regular'>
-                  Project Manager, SR Group
+                  Project Manager, RR Landmarks
                 </p>
 
                 <div className='mt-4 space-y-4 text-black leading-relaxed text-lg'>
@@ -423,7 +423,7 @@ export default function About() {
                   Our Vision
                 </h3>
                 <p className='mt-4 text-sm md:text-base leading-relaxed text-blue-200 max-w-prose'>
-                  SR Group will endeavor to enhance lives by creating great
+                  RR Landmarks will endeavor to enhance lives by creating great
                   places to live, invest, and rejuvenate. We commit to
                   continuously improve upon the standards of excellence by
                   providing sustainable integrated solutions that align with our

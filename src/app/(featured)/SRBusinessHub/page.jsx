@@ -314,7 +314,7 @@ export default function Page() {
               </h3>
               <p className=' mt-2'>
                 Introducing SR Business Hub, an exclusive commercial destination
-                by SR Group. Strategically positioned in the bustling heart of
+                by RR Landmarks. Strategically positioned in the bustling heart of
                 Baner, SR Business Hub is designed to cater to modern businesses
                 and medical professionals. With a prime location,
                 Vastu-compliant architecture, and state-of-the-art facilities,

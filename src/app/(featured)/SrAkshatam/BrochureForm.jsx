@@ -231,7 +231,7 @@ export default function BrochureForm(props) {
                     className='mt-0.5 size-3 shrink-0 rounded border-neutral-500 text-yellow-200 focus:ring-yellow-200'
                   />
                   <span>
-                    I agree to SR Group&apos;s{' '}
+                    I agree to RR Landmarks&apos;{' '}
                     <Link href='/privacy' className='underline hover:text-neutral-600'>
                       Privacy Policy
                     </Link>{' '}

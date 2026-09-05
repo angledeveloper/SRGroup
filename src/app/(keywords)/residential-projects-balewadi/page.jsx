@@ -70,14 +70,14 @@ export default function Page() {
               3 BHK Flats in Balewadi Pune
             </span>{' '}
             <span className='inline-block p-3 bg-gradient-to-b from-neutral-500  to-neutral-100 to-70% bg-clip-text text-transparent'>
-              SR Aishwaryam by SR Group
+              SR Aishwaryam by RR Landmarks
             </span>
           </h1>
         </section>
       </section>
       <section className='mx-auto my-12 flex w-full max-w-screen-2xl flex-col gap-4 p-3 text-2xl font-medium md:text-4xl'>
         <p ref={introTextRef} className='text-black'>
-          SR Aishwaryam by SR Group stands tall as one of the best residential
+          SR Aishwaryam by RR Landmarks stands tall as one of the best residential
           projects in Balewadi, one of Pune’s most dynamic and premium
           residential hubs. Designed for modern urban families, these 3 BHK
           flats in Balewadi Pune offer elegant interiors, spacious layouts, and
@@ -115,9 +115,9 @@ export default function Page() {
               </li>
               <li>RERA-approved and Vastu-compliant design</li>
             </ul>
-            <p className=' mt-2 font-bold'>Why Choose SR Group</p>
+            <p className=' mt-2 font-bold'>Why Choose RR Landmarks</p>
             <p className=' mt-2'>
-              Known for on-time delivery and transparency, SR Group ensures
+              Known for on-time delivery and transparency, RR Landmarks ensures
               every home blends design excellence with lasting value. Experience
               luxury living at one of the best residential projects in Balewadi
               Pune.
@@ -235,7 +235,7 @@ export default function Page() {
                 Q5. Is SR Aishwaryam RERA approved?
               </h4>
               <p className='mt-2 text-sm md:text-base text-black leading-relaxed'>
-                Yes, SR Aishwaryam by SR Group is fully RERA registered,
+                Yes, SR Aishwaryam by RR Landmarks is fully RERA registered,
                 ensuring transparency, timely delivery, and buyer security.
               </p>
             </div>

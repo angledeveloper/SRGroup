@@ -70,7 +70,7 @@ export default function Page() {
               2 & 3 BHK Flats in West Pune
             </span>{' '}
             <span className='inline-block p-3 bg-gradient-to-b from-neutral-500  to-neutral-100 to-70% bg-clip-text text-transparent'>
-              SR Group Developments
+              RR Landmarks Developments
             </span>
           </h1>
         </section>
@@ -79,7 +79,7 @@ export default function Page() {
         <p ref={introTextRef} className='text-black'>
           If you’re exploring 2 BHK and 3 BHK flats in West Pune, Balewadi and
           Baner are among the most sought-after choices. With SR Aishwaryam in
-          Balewadi, and SR Business Hub in Baner, SR Group has established a
+          Balewadi, and SR Business Hub in Baner, RR Landmarks has established a
           strong presence in West Pune, an area known for its superior
           connectivity, growth, and lifestyle appeal.
         </p>
@@ -119,14 +119,14 @@ export default function Page() {
                 Green surroundings with strong property appreciation rates
               </li>
             </ul>
-            <p className=' mt-2 font-bold'>SR Group Advantages:</p>
+            <p className=' mt-2 font-bold'>RR Landmarks Advantages:</p>
             <ul className='list-disc pl-5 '>
               <li>High-quality, RERA-registered constructions</li>
               <li>Elegant designs with practical layouts</li>
               <li>Long-term trust and transparency in every project</li>
             </ul>
             <p className=' mt-2'>
-              Discover the joy of contemporary living in SR Group’s apartments
+              Discover the joy of contemporary living in RR Landmarks’ apartments
               across West Pune, where luxury meets location advantage
             </p>
           </div>
@@ -200,13 +200,13 @@ export default function Page() {
             {/* Q2 */}
             <div className='rounded-xl bg-white/80 border border-blue-100 p-5 md:p-6 shadow-sm'>
               <h4 className='text-base md:text-lg font-semibold text-blue-200'>
-                Q2. Does SR Group have projects in West Pune?
+                Q2. Does RR Landmarks have projects in West Pune?
               </h4>
               <p className='mt-2 text-sm md:text-base text-black leading-relaxed'>
-                Yes, SR Aishwaryam in Balewadi represents SR Group’s
+                Yes, SR Aishwaryam in Balewadi represents RR Landmarks’
                 craftsmanship and focus on modern urban living. The presence of
                 SR Business Hub, a commercial project situated in Baner, adds
-                further value & grip for SR Group across West Pune.
+                further value & grip for RR Landmarks across West Pune.
               </p>
             </div>
 
@@ -224,10 +224,10 @@ export default function Page() {
             {/* Q4 */}
             <div className='rounded-xl bg-white/80 border border-blue-100 p-5 md:p-6 shadow-sm'>
               <h4 className='text-base md:text-lg font-semibold text-blue-200'>
-                Q4. How does SR Group ensure construction quality?
+                Q4. How does RR Landmarks ensure construction quality?
               </h4>
               <p className='mt-2 text-sm md:text-base text-black leading-relaxed'>
-                SR Group uses premium-grade materials, strict quality control,
+                RR Landmarks uses premium-grade materials, strict quality control,
                 and advanced engineering methods in every project.
               </p>
             </div>

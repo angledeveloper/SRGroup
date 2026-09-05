@@ -4,7 +4,7 @@ export const metadata = {
   title:
     'SR Aishwaryam - 2 BHK, 3 BHK flats in Balewadi | 2 BHK, 3 BHK flats in west Pune',
   description:
-    'Explore SR Aishwaryam by SR Group - premium 2 & 3 BHK flats in Balewadi, West Pune, with modern amenities, green design, and excellent connectivity.',
+    'Explore SR Aishwaryam by RR Landmarks - premium 2 & 3 BHK flats in Balewadi, West Pune, with modern amenities, green design, and excellent connectivity.',
 };
 
 export default function RootLayout({ children }) {

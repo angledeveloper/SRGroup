@@ -318,12 +318,12 @@ export default function Home() {
       <div className=' bg-[#191919] px-3'>
         <section className='mx-auto flex w-full max-w-screen-2xl flex-col gap-[48px] text-2xl font-medium md:text-4xl py-[57px]'>
           <p ref={introTextRef} className='text-white'>
-            At SR Group, We shape the way people live, connect, and belong. What
+            At RR Landmarks, We shape the way people live, connect, and belong. What
             began as a family vision has grown into a legacy of trust, carried
             forward with a deep responsibility toward the city we call home.
             Each project is a promise of safety, dignity, and spaces that
             outlast generations. By weaving tradition with progress and
-            sustainability with design, SR Group builds environments where
+            sustainability with design, RR Landmarks builds environments where
             families thrive, communities endure, and the future
             finds its foundation.
           </p>
@@ -375,7 +375,7 @@ export default function Home() {
           <div className='absolute bottom-16 hidden pr-20 z-10 text-right text-sm text-[#4B4B4B] lg:right-12 lg:block lg:text-base'>
             <p className='font-semibold'>Mr. Rajendra Reddy</p>
             <p className='text-xs text-neutral-500 lg:text-sm'>
-              Managing Director, SR Group
+              Managing Director, RR Landmarks
             </p>
           </div>
 
@@ -389,7 +389,7 @@ export default function Home() {
           </div>
           <div className='absolute bottom-0 left-0 w-full bg-yellow-200 px-4 py-4 text-white lg:hidden'>
             <p className='text-base font-semibold'>Mr. Rajendra Reddy</p>
-            <p className='text-xs text-white/90'>Managing Director, SR Group</p>
+            <p className='text-xs text-white/90'>Managing Director, RR Landmarks</p>
           </div>
           <div className='flex w-full flex-col items-center lg:w-1/2 lg:items-end'>
             <div className='relative bottom-0 w-full'></div>
@@ -414,7 +414,7 @@ export default function Home() {
             </div>
             <p className=' flex w-full max-w-xl flex-col   overflow-hidden text-sm  font-normal  text-blue-200    md:text-base'>
               <span className='fadeIn  '>
-                SR Group specialises in residential and commercial projects and
+                RR Landmarks specialises in residential and commercial projects and
                 maintains our on-time delivery commitment. Our layouts, crafted
                 in compliance with good Vastu and Feng Shui principles, ensure
                 harmony and prosperity for your family. Lastly, along with good

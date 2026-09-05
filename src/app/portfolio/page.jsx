@@ -358,7 +358,7 @@ export default function Home() {
 
       <section className='my-12 py-3 px-3 flex flex-col gap-4 font-medium mx-auto w-full text-2xl md:text-4xl max-w-screen-2xl'>
         <p ref={introTextRef} className='text-black'>
-          SR Group specialises in residential and commercial projects and
+          RR Landmarks specialises in residential and commercial projects and
           maintains our on-time delivery commitment. Our layouts, crafted in
           compliance with Good Vastu and Feng Shui principles, ensure harmony
           and prosperity for your family. Lastly, along with good transparency

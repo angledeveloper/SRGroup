@@ -7,9 +7,9 @@ import UTMInit from './UTMInit';
 
 export const metadata = {
   title:
-    'SR Group-Real estate in Pune | New residential and commercial projects in Pune',
+    'RR Landmarks-Real estate in Pune | New residential and commercial projects in Pune',
   description:
-    'Discover SR Group, a trusted real estate developer in Pune offering premium residential and commercial projects with modern amenities, great connectivity, and value.',
+    'Discover RR Landmarks, a trusted real estate developer in Pune offering premium residential and commercial projects with modern amenities, great connectivity, and value.',
   authors: [{ name: 'Angle.services', url: 'https://angle.services' }],
 };
 

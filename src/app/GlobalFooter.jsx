@@ -119,7 +119,7 @@ export default function GlobalFooter() {
                 Disclaimer{' '}
               </span>
               <p className=' w-full text-sm text-black/70 md:text-base '>
-                The information provided on the SR Group real estate website is
+                The information provided on the RR Landmarks real estate website is
                 for general informational purposes only. While we strive to keep
                 the information up to date and accurate, we make no
                 representations or warranties of any kind, express or implied,
@@ -127,7 +127,7 @@ export default function GlobalFooter() {
                 availability with respect to the website or the information,
                 products, services, or related graphics contained on the website
                 for any purpose. Any reliance you place on such information is
-                therefore strictly at your own risk. In no event will SRgroup or
+                therefore strictly at your own risk. In no event will RR Landmarks or
                 its employees be liable for any loss or damage including without
                 limitation, indirect or consequential loss or damage, or any
                 loss or damage whatsoever arising from loss of data or profits.
@@ -259,7 +259,7 @@ export default function GlobalFooter() {
                 className='mt-0.5 size-3 shrink-0 rounded border-neutral-500 text-yellow-200 focus:ring-yellow-200'
               />
               <span>
-                I agree to SR Group&apos;s{' '}
+                I agree to RR Landmarks&apos;{' '}
                 <Link href='/privacy' className='underline hover:text-neutral-200'>
                   Privacy Policy
                 </Link>{' '}
@@ -342,7 +342,7 @@ export default function GlobalFooter() {
           Disclaimer{' '}
         </span>
         <p className=' w-full text-sm text-white/70 md:text-base '>
-          The information provided on the SR Group real estate website is for
+          The information provided on the RR Landmarks real estate website is for
           general informational purposes only. While we strive to keep the
           information up to date and accurate, we make no representations or
           warranties of any kind, express or implied, about the completeness,
@@ -350,7 +350,7 @@ export default function GlobalFooter() {
           the website or the information, products, services, or related
           graphics contained on the website for any purpose. Any reliance you
           place on such information is therefore strictly at your own risk. In
-          no event will SRgroup or its employees be liable for any loss or
+          no event will RR Landmarks or its employees be liable for any loss or
           damage including without limitation, indirect or consequential loss or
           damage, or any loss or damage whatsoever arising from loss of data or
           profits.
@@ -358,7 +358,7 @@ export default function GlobalFooter() {
       </section>
       <section className=' m-auto mt-10 flex w-full max-w-screen-2xl flex-col items-center justify-between pt-4 text-sm md:flex-row md:text-4xl'>
         <div className='flex items-center gap-4'>
-          <span>SR Group. All rights reserved, 2025</span>
+          <span>RR Landmarks. All rights reserved, 2025</span>
           <Link href='/privacy' className='text-yellow-200 hover:underline'>
             Privacy Policy
           </Link>

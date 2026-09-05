@@ -14,14 +14,14 @@ const TestimonialsData = [
     siteName: 'Anand Residency',
     image: '/images/SRAnandResidency.avif',
     message:
-      'We wanted a home close to Pune Airport without having to deal with the heavy traffic, SR Group provided us with the perfect home solution we were looking out for. A big thank you!',
+      'We wanted a home close to Pune Airport without having to deal with the heavy traffic, RR Landmarks provided us with the perfect home solution we were looking out for. A big thank you!',
   },
   {
     name: 'Bharat Daud',
     siteName: 'Anand Residency',
     image: '/images/SRAnandResidency.avif',
     message:
-      'The locality, quality and price all met our expectations. I was very impressed with the communication, followup and the help provided by SR Group marketing team. Definitely recommend them.',
+      'The locality, quality and price all met our expectations. I was very impressed with the communication, followup and the help provided by RR Landmarks marketing team. Definitely recommend them.',
   },
   {
     name: 'Dr. Sachin Kharat',
@@ -35,7 +35,7 @@ const TestimonialsData = [
     siteName: 'Om Paradise',
     image: '/images/SROmParadise.avif',
     message:
-      'Prompt and professional service from SR Group, very helpful staff who explained and assisted me with all the documentation and statutory requirements. They made getting my home a smooth sailing task.',
+      'Prompt and professional service from RR Landmarks, very helpful staff who explained and assisted me with all the documentation and statutory requirements. They made getting my home a smooth sailing task.',
   },
 ];
 

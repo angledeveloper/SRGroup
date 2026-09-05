@@ -19,7 +19,7 @@ export default function SelectGalLery() {
         />
         <div className=' absolute z-10 flex size-full flex-col items-center justify-between p-12'>
           <p className=' text-lg font-medium text-gray-200'>
-            Elevate your business environment: Explore SR Group&apos;s
+            Elevate your business environment: Explore RR Landmarks&apos;
             meticulously designed commercial spaces, where light, space, and
             positive Vastu unite.
           </p>
@@ -40,7 +40,7 @@ export default function SelectGalLery() {
         />
         <div className=' absolute z-10 flex size-full flex-col items-center justify-between p-12'>
           <p className=' text-lg font-medium text-gray-200'>
-            Discover your perfect harmony: Explore SR Group&apos;s exquisite
+            Discover your perfect harmony: Explore RR Landmarks&apos; exquisite
             residences where Vastu, space, and luxury converge.
           </p>
           <h4 className=' text-2xl font-bold text-yellow-200 md:text-4xl lg:text-5xl'>

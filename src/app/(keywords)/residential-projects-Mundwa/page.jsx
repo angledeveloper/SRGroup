@@ -70,14 +70,14 @@ export default function Page() {
               2 & 3 BHK Flats in Mundhwa Pune
             </span>{' '}
             <span className='inline-block p-3 bg-gradient-to-b from-neutral-500  to-neutral-100 to-70% bg-clip-text text-transparent'>
-              SR Group Projects Near Mundhwa
+              RR Landmarks Projects Near Mundhwa
             </span>
           </h1>
         </section>
       </section>
       <section className='mx-auto my-12 flex w-full max-w-screen-2xl flex-col gap-4 p-3 text-2xl font-medium md:text-4xl'>
         <p ref={introTextRef} className='text-black'>
-          SR Akshatam by SR Group, located just minutes from Mundhwa-Manjri
+          SR Akshatam by RR Landmarks, located just minutes from Mundhwa-Manjri
           Road, offers modern 2 BHK and 3 BHK flats near Mundhwa Pune (in Keshav
           Nagar). The project’s proximity to Hadapsar, Koregaon Park, and
           Magarpatta gives residents unmatched connectivity and access to urban
@@ -123,12 +123,11 @@ export default function Page() {
             <ul className='list-disc pl-5 '>
               <li>Gated community with security, gym, and landscaped areas</li>
               <li>Smart layouts ensuring natural light and ventilation</li>
-              <li>Designed with SR Group’s commitment to quality and detail</li>
+              <li>Designed with RR Landmarks’ commitment to quality and detail</li>
             </ul>
 
             <p className=' mt-2'>
-              Enjoy the balance of urban convenience and suburban peace with SR
-              Group’s homes near Mundhwa Pune, built to last generations.
+              Enjoy the balance of urban convenience and suburban peace with RR Landmarks’ homes near Mundhwa Pune, built to last generations.
             </p>
           </div>
           {/* Static card */}
@@ -190,7 +189,7 @@ export default function Page() {
             {/* Q1 */}
             <div className='rounded-xl bg-white/80 border border-blue-100 p-5 md:p-6 shadow-sm'>
               <h4 className='text-base md:text-lg font-semibold text-blue-200'>
-                Q1. Are there SR Group projects near Mundhwa Pune?
+                Q1. Are there RR Landmarks projects near Mundhwa Pune?
               </h4>
               <p className='mt-2 text-sm md:text-base text-black leading-relaxed'>
                 Yes, SR Akshatam is located near Mundhwa-Manjri Road with
@@ -213,7 +212,7 @@ export default function Page() {
             {/* Q3 */}
             <div className='rounded-xl bg-white/80 border border-blue-100 p-5 md:p-6 shadow-sm'>
               <h4 className='text-base md:text-lg font-semibold text-blue-200'>
-                Q3. What amenities are offered by SR Group near Mundhwa?
+                Q3. What amenities are offered by RR Landmarks near Mundhwa?
               </h4>
               <p className='mt-2 text-sm md:text-base text-black leading-relaxed'>
                 Residents enjoy modern comforts like a gym, swimming pool,

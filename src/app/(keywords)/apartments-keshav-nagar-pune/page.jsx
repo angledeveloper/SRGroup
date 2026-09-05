@@ -70,14 +70,14 @@ export default function Page() {
               2 & 3 BHK Apartments in Keshav Nagar Pune
             </span>{' '}
             <span className='inline-block p-3 bg-gradient-to-b from-neutral-500  to-neutral-100 to-70% bg-clip-text text-transparent'>
-              SR Akshatam by SR Group
+              SR Akshatam by RR Landmarks
             </span>
           </h1>
         </section>
       </section>
       <section className='mx-auto my-12 flex w-full max-w-screen-2xl flex-col gap-4 p-3 text-2xl font-medium md:text-4xl'>
         <p ref={introTextRef} className='text-black'>
-          SR Akshatam by SR Group offers premium 2 BHK and 3 BHK apartments in
+          SR Akshatam by RR Landmarks offers premium 2 BHK and 3 BHK apartments in
           Keshav Nagar Pune, blending serene surroundings with excellent
           connectivity. Situated near Mundhwa-Manjri Road, this development is
           strategically positioned between Kharadi, Magarpatta City, and
@@ -116,7 +116,7 @@ export default function Page() {
             </ul>
 
             <p className=' mt-2'>
-              With SR Group’s trusted name and SR Akshatam’s prime Keshav Nagar
+              With RR Landmarks’ trusted name and SR Akshatam’s prime Keshav Nagar
               location, your investment ensures both lifestyle comfort and
               long-term appreciation.
             </p>

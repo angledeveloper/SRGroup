@@ -70,7 +70,7 @@ export default function Page() {
               2 & 3 BHK Flats in Sus Pune
             </span>{' '}
             <span className='inline-block p-3 bg-gradient-to-b from-neutral-500  to-neutral-100 to-70% bg-clip-text text-transparent'>
-              SR Group Homes Near Balewadi
+              RR Landmarks Homes Near Balewadi
             </span>
           </h1>
         </section>
@@ -112,15 +112,14 @@ export default function Page() {
               <li>Affordable rental housing near prime IT zones</li>
               <li>Peaceful surroundings with steady appreciation potential</li>
             </ul>
-            <p className=' mt-2 font-bold'>SR Group Advantages:</p>
+            <p className=' mt-2 font-bold'>RR Landmarks Advantages:</p>
             <ul className='list-disc pl-5 '>
               <li>Legacy of timely delivery and quality craftsmanship</li>
               <li>Ideal homes for investors and families alike</li>
               <li>Strong rental demand from tech professionals</li>
             </ul>
             <p className=' mt-2'>
-              Experience a blend of urban convenience and serene living in SR
-              Group’s developments near Sus, West Pune offering unlimited
+              Experience a blend of urban convenience and serene living in RR Landmarks’ developments near Sus, West Pune offering unlimited
               sources of happiness to its residents.
             </p>
           </div>
@@ -194,7 +193,7 @@ export default function Page() {
             {/* Q2 */}
             <div className='rounded-xl bg-white/80 border border-blue-100 p-5 md:p-6 shadow-sm'>
               <h4 className='text-base md:text-lg font-semibold text-blue-200'>
-                Q2. Does SR Group have projects close to Sus?
+                Q2. Does RR Landmarks have projects close to Sus?
               </h4>
               <p className='mt-2 text-sm md:text-base text-black leading-relaxed'>
                 SR Aishwaryam in Balewadi is located close to Sus, offering
@@ -230,7 +229,7 @@ export default function Page() {
             {/* Q5 */}
             <div className='rounded-xl bg-white/80 border border-blue-100 p-5 md:p-6 shadow-sm'>
               <h4 className='text-base md:text-lg font-semibold text-blue-200'>
-                Q5. Are SR Group projects near Sus family-friendly?
+                Q5. Are RR Landmarks projects near Sus family-friendly?
               </h4>
               <p className='mt-2 text-sm md:text-base text-black leading-relaxed'>
                 Absolutely, with spacious layouts, green surroundings, and top

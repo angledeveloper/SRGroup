@@ -23,7 +23,7 @@ export default function Page() {
         <div className='mt-6 text-center'>
           <h1 className='text-5xl font-semibold text-blue-200'>Onkar Reddy</h1>
           <p className='text-xl mt-2 text-gray-800'>
-            Project Manager, SR Group
+            Project Manager, RR Landmarks
           </p>
         </div>
         <div className='flex items-center justify-center gap-4'>
@@ -93,16 +93,16 @@ export default function Page() {
             alt='Video background'
           ></video>
           <p>
-            SR Group - Building Tomorrow, Together! Since the past two decades,
-            Pune-based SR Group has been at the forefront of the construction
+            RR Landmarks - Building Tomorrow, Together! Since the past two decades,
+            Pune-based RR Landmarks has been at the forefront of the construction
             industry, specializing in both residential and commercial projects.
-            At SR, we&apos;ve built more than just structures; we&apos;ve built
+            At RR Landmarks, we&apos;ve built more than just structures; we&apos;ve built
             trust and excellence. Our core lies in innovation, integrity, and a
             relentless commitment to quality, driven by a team that values
             honesty, transparency, and collaboration. Rooted in our Indian
             heritage, we&apos;re not just constructing buildings but crafting
             legacies, fostering community growth and ensuring every project
-            contributes to the collective dreams of New Bharat. At SR Group, we
+            contributes to the collective dreams of New Bharat. At RR Landmarks, we
             build not just for the present, but for a sustainable and inclusive
             future.
           </p>
