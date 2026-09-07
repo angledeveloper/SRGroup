@@ -102,7 +102,7 @@ export default function GlobalFooter() {
   };
 
   return (
-    <footer className='  w-full bg-[#191919] px-3 py-[57px] text-neutral-200'>
+    <footer className='  w-full bg-espresso-noir px-3 py-[57px] text-neutral-200'>
       {success && (
         <div className=' fixed bottom-10 right-0 z-[9] bg-black px-12 py-3 text-white'>
           Message sent successfully
@@ -135,7 +135,7 @@ export default function GlobalFooter() {
               </p>
 
               <GlobalButton
-                color='white'
+                color='dark'
                 className=' mt-4  w-full rounded-full px-6  py-2 text-base font-medium  md:h-fit md:w-32'
                 onClick={() => setCookies(false)}
               >
@@ -148,7 +148,7 @@ export default function GlobalFooter() {
       <div className=' m-auto w-full max-w-screen-2xl '>
         <div className=' grid-cols-2 gap-20 md:grid'>
           <div>
-            <span className=' text-4xl font-bold text-yellow-200 '>
+            <span className=' text-4xl font-bold text-travertine-300 '>
               Looking for something specific?
             </span>
             {isHydrated ? (
@@ -217,7 +217,7 @@ export default function GlobalFooter() {
                     />
                   </div>
                   <GlobalButton
-                    color='white'
+                    color='light'
                     className=' mt-4 hidden w-full rounded-full px-6  py-2 text-base font-medium md:block md:h-fit md:w-32'
                     onClick={handleSubmit}
                   >
@@ -243,7 +243,7 @@ export default function GlobalFooter() {
                   />
                 </div>
                 <GlobalButton
-                  color='white'
+                  color='light'
                   className=' mt-4 w-full rounded-full px-6  py-2 text-base font-medium  md:hidden md:h-fit md:w-28'
                   onClick={handleSubmit}
                 >
@@ -257,7 +257,7 @@ export default function GlobalFooter() {
                   setConsent(e.target.checked);
                   setConsentWarning(false);
                 }}
-                className='mt-0.5 size-3 shrink-0 rounded border-neutral-500 text-yellow-200 focus:ring-yellow-200'
+                className='mt-0.5 size-3 shrink-0 rounded border-neutral-500 text-travertine-300 focus:ring-travertine-300'
               />
               <span>
                 I agree to RR Landmarks&apos;{' '}
@@ -285,21 +285,21 @@ export default function GlobalFooter() {
           </div>
           <div className='  mt-20 flex w-full  flex-col gap-7'>
             <div className=' grid grid-cols-2'>
-              <span className='text-yellow-200'>CONTACT</span>
+              <span className='text-travertine-300'>CONTACT</span>
               <div className=' flex flex-col gap-4'>
                 <span>+91 7448007500</span>
                 <span>info@sreddygroup.com</span>
               </div>
             </div>
             <div className=' grid grid-cols-2'>
-              <span className='text-yellow-200'>OFFICE</span>
+              <span className='text-travertine-300'>OFFICE</span>
               <span>
                 5th floor, Business Point, Sai Chowk Rd, Laxman Nagar, Baner,
                 Pune, Maharashtra, 411045
               </span>
             </div>
             <div className=' grid grid-cols-2'>
-              <span className='text-yellow-200'>SOCIALS</span>
+              <span className='text-travertine-300'>SOCIALS</span>
               <span className=' flex flex-col gap-2'>
                 <Link
                   href='https://www.instagram.com/sr_group_pune/'
@@ -338,7 +338,7 @@ export default function GlobalFooter() {
         </div>
       </div>
       <section className=' text-md m-auto flex w-full max-w-screen-2xl flex-col items-center justify-between pt-4'>
-        <span className=' mb-4 mt-10 w-full text-2xl font-bold text-yellow-200 md:text-4xl'>
+        <span className=' mb-4 mt-10 w-full text-2xl font-bold text-travertine-300 md:text-4xl'>
           {' '}
           Disclaimer{' '}
         </span>
@@ -360,17 +360,17 @@ export default function GlobalFooter() {
       <section className=' m-auto mt-10 flex w-full max-w-screen-2xl flex-col items-center justify-between pt-4 text-sm md:flex-row md:text-4xl'>
         <div className='flex items-center gap-4'>
           <span>RR Landmarks. All rights reserved, 2025</span>
-          <Link href='/privacy' className='text-yellow-200 hover:underline'>
+          <Link href='/privacy' className='text-travertine-300 hover:underline'>
             Privacy Policy
           </Link>
-          <Link href='/terms' className='text-yellow-200 hover:underline'>
+          <Link href='/terms' className='text-travertine-300 hover:underline'>
             Terms
           </Link>
         </div>
         <div className=' text-xs'>
           Designed and developed by{' '}
           <Link
-            className=' text-yellow-200'
+            className=' text-travertine-300'
             target='blank_'
             href='https://www.angle.services'
           >

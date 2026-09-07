@@ -315,9 +315,9 @@ export default function Home() {
           </span>
         </h1> */}
       </section>
-      <div className=' bg-[#191919] px-3'>
+      <div className=' bg-travertine-300 px-3'>
         <section className='mx-auto flex w-full max-w-screen-2xl flex-col gap-[48px] text-2xl font-medium md:text-4xl py-[57px]'>
-          <p ref={introTextRef} className='text-white'>
+          <p ref={introTextRef} className='text-espresso-noir'>
             At RR Landmarks, We shape the way people live, connect, and belong. What
             began as a family vision has grown into a legacy of trust, carried
             forward with a deep responsibility toward the city we call home.
@@ -329,7 +329,7 @@ export default function Home() {
           </p>
           <Link href='/portfolio'>
             <GlobalButton
-              color='white'
+              color='dark'
               className='  w-fit  rounded-full px-10 py-3 text-base md:px-12 md:py-4 md:text-lg '
             >
               Our Work
@@ -365,7 +365,7 @@ export default function Home() {
 
             <Link href='/about'>
               <GlobalButton
-                color='white'
+                color='dark'
                 className=' w-fit  rounded-full px-5 py-2 text-base lg:px-12 lg:py-2 lg:text-lg '
               >
                 ABOUT US
@@ -387,9 +387,9 @@ export default function Home() {
               className='object-contain '
             />
           </div>
-          <div className='absolute bottom-0 left-0 w-full bg-yellow-200 px-4 py-4 text-white lg:hidden'>
+          <div className='absolute bottom-0 left-0 w-full bg-travertine-300 px-4 py-4 text-espresso-noir lg:hidden'>
             <p className='text-base font-semibold'>Mr. Rajendra Reddy</p>
-            <p className='text-xs text-white/90'>Managing Director, RR Landmarks</p>
+            <p className='text-xs text-espresso-noir/80'>Managing Director, RR Landmarks</p>
           </div>
           <div className='flex w-full flex-col items-center lg:w-1/2 lg:items-end'>
             <div className='relative bottom-0 w-full'></div>
@@ -428,12 +428,12 @@ export default function Home() {
       </section> */}
       <section
         ref={FourPointsSection}
-        className=' w-full bg-[#0D5480] px-3  py-12 '
+        className=' w-full bg-darkwood-300 px-3  py-12 '
       >
-        <div className=' mx-auto w-full max-w-screen-2xl text-white/80'>
+        <div className=' mx-auto w-full max-w-screen-2xl text-antique-ivory-100'>
           <div className=' flex h-fit w-full flex-row items-start  lg:items-end '>
             <div className='  flex h-[240px] w-full   flex-col  gap-0 p-5 md:h-[270px] md:gap-4 lg:h-[260px] '>
-              <h3 className=' overflow-hidden text-6xl font-bold text-yellow-200 md:text-6xl lg:text-8xl '>
+              <h3 className=' overflow-hidden text-6xl font-bold text-saddle-tan md:text-6xl lg:text-8xl '>
                 <span className=' fadeFromBelow'>
                   <CountUp
                     enableScrollSpy={true}
@@ -450,11 +450,11 @@ export default function Home() {
             </div>
 
             <div className=' h-[240px] w-px   md:h-[270px] lg:h-[260px]'>
-              <div ref={topLine} className=' h-1/2 w-full bg-white'></div>
+              <div ref={topLine} className=' h-1/2 w-full bg-antique-ivory-100'></div>
             </div>
 
             <div className='  flex h-[240px] w-full   flex-col   gap-0 p-5 md:h-[270px] md:gap-4 lg:h-[260px] '>
-              <h3 className=' overflow-hidden text-6xl font-bold text-yellow-200 md:text-6xl lg:text-8xl '>
+              <h3 className=' overflow-hidden text-6xl font-bold text-saddle-tan md:text-6xl lg:text-8xl '>
                 <span className=' fadeFromBelow'>
                   <CountUp enableScrollSpy={true} end={17} duration={1.5} />+
                 </span>
@@ -469,16 +469,16 @@ export default function Home() {
           </div>
           <div className=' flex h-px w-full justify-between'>
             <div className=' w-full '>
-              <div ref={leftLine} className=' h-full w-1/2 bg-white'></div>
+              <div ref={leftLine} className=' h-full w-1/2 bg-antique-ivory-100'></div>
             </div>
             <div className=' flex w-full justify-end'>
-              <div ref={rightLine} className=' h-full w-1/2 bg-white'></div>
+              <div ref={rightLine} className=' h-full w-1/2 bg-antique-ivory-100'></div>
             </div>
           </div>
 
           <div className=' flex h-fit w-full flex-row items-start overflow-hidden  lg:items-end '>
             <div className='  flex h-[240px] w-full   flex-col  gap-0 p-5 md:h-[270px] md:gap-4 lg:h-[260px] '>
-              <h3 className=' overflow-hidden text-6xl font-bold text-yellow-200 md:text-6xl lg:text-8xl '>
+              <h3 className=' overflow-hidden text-6xl font-bold text-saddle-tan md:text-6xl lg:text-8xl '>
                 <span className=' fadeFromBelow'>
                   <CountUp enableScrollSpy={true} end={16} duration={1.5} />+
                 </span>
@@ -490,11 +490,11 @@ export default function Home() {
             </div>
 
             <div className=' flex h-[240px] w-px items-end   md:h-[270px] lg:h-[260px]'>
-              <div ref={bottomLine} className=' h-1/2 w-full bg-white'></div>
+              <div ref={bottomLine} className=' h-1/2 w-full bg-antique-ivory-100'></div>
             </div>
 
             <div className='  flex h-[240px] w-full   flex-col  gap-0 p-5 md:h-[270px] md:gap-4 lg:h-[260px] '>
-              <h3 className=' overflow-hidden text-6xl font-bold text-yellow-200 md:text-6xl lg:text-8xl '>
+              <h3 className=' overflow-hidden text-6xl font-bold text-saddle-tan md:text-6xl lg:text-8xl '>
                 <span className=' fadeFromBelow'>
                   <CountUp enableScrollSpy={true} end={650} duration={1} />+
                 </span>
@@ -508,7 +508,7 @@ export default function Home() {
         </div>
       </section>
       <div className='bg-[#f4f4f5]'>
-        <div className=' mx-auto py-12  w-full max-w-screen-2xl overflow-hidden p-3 text-6xl text-blue-200'>
+        <div className=' mx-auto py-12  w-full max-w-screen-2xl overflow-hidden p-3 text-6xl text-darkwood-300'>
           <h2 className='fadeIn py-3'>Prime Projects</h2>
         </div>
         <section className=' m-auto grid w-full max-w-screen-2xl items-start gap-4 px-3 md:grid-cols-2 lg:grid-cols-3 pb-[100px]'>
@@ -535,7 +535,7 @@ export default function Home() {
 
       <section className=' mx-auto  flex w-full max-w-screen-2xl flex-col md:flex-row gap-8'>
         <div className=' flex w-full flex-col justify-center gap-[69px] p-3 '>
-          <h3 className=' text-4xl font-base text-blue-200 md:text-6xl'>
+          <h3 className=' text-4xl font-base text-darkwood-300 md:text-6xl'>
             Like What You See?
           </h3>
           <p ref={bottomTextRef} className=' text-2xl md:text-3xl'>
@@ -547,7 +547,7 @@ export default function Home() {
           </p>
           <Link href='/portfolio'>
             <GlobalButton
-              color='white'
+              color='dark'
               className='  w-fit  rounded-full px-8 py-3 text-base md:px-12 md:py-4 md:text-lg '
             >
               OUR PORTFOLIO
@@ -568,17 +568,17 @@ export default function Home() {
               aria-label='Video background'
             ></video>
           </div>
-          <div className=' flex w-full flex-col gap-8 bg-yellow-200 px-[48px] py-[45px]'>
-            {/* <h3 className=' text-4xl font-medium text-blue-200'>
+          <div className=' flex w-full flex-col gap-8 bg-travertine-300 px-[48px] py-[45px]'>
+            {/* <h3 className=' text-4xl font-medium text-darkwood-300'>
               Like What You See?
             </h3> */}
-            <p className=' text-3xl  text-[#3F3F3F]'>
+            <p className=' text-3xl  text-espresso-noir'>
               Explore insights on real estate, design trends,
-              <span className=' text-[#3F3F3F]'> and smart investments!</span>
+              <span className=' text-espresso-noir'> and smart investments!</span>
             </p>
             <Link href='https://blog.sreddygroup.com/' target='_blank'>
               <GlobalButton
-                color='yellow'
+                color='dark'
                 className='  w-fit  rounded-full px-8 py-3 text-base  md:text-lg '
               >
                 Check Blogs
@@ -591,7 +591,7 @@ export default function Home() {
         <div className='mx-auto flex w-full max-w-screen-2xl flex-col md:flex-row p-5 '>
           <div className='flex w-full flex-col lg:flex-row lg:items-start lg:justify-between gap-4 lg:gap-10 py-[87px]'>
             <div className='w-full'>
-              <h3 className='text-4xl font-base text-blue-200 md:text-6xl'>
+              <h3 className='text-4xl font-base text-darkwood-300 md:text-6xl'>
                 Site Gallery
               </h3>
             </div>

@@ -94,7 +94,7 @@ export default function Contact() {
     <div className=' mx-auto mt-28 flex size-full max-w-screen-2xl flex-col  items-center  justify-center gap-8 px-3 md:min-h-[calc(100dvh-80px)] md:flex-row'>
       <div className=' flex size-full  flex-col gap-4 overflow-visible'>
         <div className='  h-[424px]'>
-          <h1 className=' mb-4 text-5xl font-bold text-blue-200'>Contact Us</h1>
+          <h1 className=' mb-4 text-5xl font-bold text-darkwood-300'>Contact Us</h1>
           <form className='flex w-full flex-col'>
             <div className=' w-full cursor-text gap-2 md:flex'>
               <div className=' w-full'>
@@ -177,7 +177,7 @@ export default function Contact() {
               />
             </div>
             <GlobalButton
-              color='black'
+              color='dark'
               className=' mt-4 w-full rounded-full px-6  py-2 text-base font-medium  md:h-fit md:w-28'
               onClick={handleSubmit}
             >
@@ -191,7 +191,7 @@ export default function Contact() {
                   setConsent(e.target.checked);
                   setConsentWarning(false);
                 }}
-                className='mt-0.5 size-3 shrink-0 rounded border-neutral-300 text-blue-200 focus:ring-blue-200'
+                className='mt-0.5 size-3 shrink-0 rounded border-neutral-300 text-darkwood-300 focus:ring-darkwood-300'
               />
               <span>
                 I agree to RR Landmarks&apos;{' '}

@@ -124,13 +124,13 @@ export default function Gallery() {
     <div className=' flex  flex-col md:gap-3 '>
       <div className=' flex flex-col-reverse justify-between md:flex-row md:gap-4 lg:gap-6 '>
         <div className=' flex flex-col justify-between md:w-1/4 md:max-w-sm'>
-          <h5 className=' block hyphens-auto break-words text-xl    font-medium text-yellow-200 md:hidden md:w-1/4 md:max-w-sm md:text-3xl lg:text-4xl'>
+          <h5 className=' block hyphens-auto break-words text-xl    font-medium text-saddle-tan md:hidden md:w-1/4 md:max-w-sm md:text-3xl lg:text-4xl'>
             {selectedGallery.location}
           </h5>
-          <h4 className=' block text-2xl font-bold  text-yellow-200  md:hidden md:text-3xl lg:text-5xl'>
+          <h4 className=' block text-2xl font-bold  text-darkwood-300  md:hidden md:text-3xl lg:text-5xl'>
             {selectedGallery.title}
           </h4>
-          <p className=' text-blue-200'>{selectedGallery.description}</p>
+          <p className=' text-darkwood-300'>{selectedGallery.description}</p>
         </div>
         <div className=' cursorBig relative aspect-video max-h-[calc(70dvh-90px)]   w-full overflow-hidden rounded-md '>
           <div className=' absolute z-10 flex size-full items-center justify-between px-2 max-md:mb-3'>
@@ -169,15 +169,15 @@ export default function Gallery() {
       </div>
 
       <div className=' flex flex-col md:flex-row md:items-end  md:gap-4 lg:gap-6'>
-        <h5 className=' hidden hyphens-auto break-words text-xl font-bold text-yellow-200 md:block md:w-1/4 md:max-w-sm md:text-3xl lg:text-4xl'>
+        <h5 className=' hidden hyphens-auto break-words text-xl font-bold text-saddle-tan md:block md:w-1/4 md:max-w-sm md:text-3xl lg:text-4xl'>
           {selectedGallery.location}
         </h5>
         <div className=' flex w-full flex-col justify-between md:flex-row md:items-end'>
-          <h4 className=' hidden text-2xl  font-bold  text-yellow-200 md:block md:text-3xl lg:text-5xl'>
+          <h4 className=' hidden text-2xl  font-bold  text-darkwood-300 md:block md:text-3xl lg:text-5xl'>
             {selectedGallery.title}
           </h4>
           <Link href={selectedGallery.link}>
-            <span className=' cursorBig text-xl  font-medium text-yellow-200 underline md:text-3xl lg:text-4xl'>
+            <span className=' cursorBig text-xl  font-medium text-saddle-tan underline md:text-3xl lg:text-4xl'>
               See Details
             </span>
           </Link>

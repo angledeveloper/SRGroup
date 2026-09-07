@@ -368,7 +368,7 @@ export default function Home() {
       </section>
 
       <section>
-        <div className=' w-full overflow-hidden  mx-auto max-w-screen-2xl p-3 text-6xl text-blue-200 mt-12 mb-4'>
+        <div className=' w-full overflow-hidden  mx-auto max-w-screen-2xl p-3 text-6xl text-darkwood-300 mt-12 mb-4'>
           <h2 className='fadeIn'>Upcoming Projects</h2>
         </div>
         <div className=' w-full max-w-screen-2xl grid items-start gap-4 md:grid-cols-2 lg:grid-cols-3 px-3 m-auto'>
@@ -392,7 +392,7 @@ export default function Home() {
       </section>
 
       <section>
-        <div className=' w-full overflow-hidden  mx-auto max-w-screen-2xl p-3 text-6xl text-blue-200 mt-12 mb-4'>
+        <div className=' w-full overflow-hidden  mx-auto max-w-screen-2xl p-3 text-6xl text-darkwood-300 mt-12 mb-4'>
           <h2 className='fadeIn'>Under Construction</h2>
         </div>
         <div className=' w-full max-w-screen-2xl grid items-start gap-4 md:grid-cols-2 lg:grid-cols-3 px-3 m-auto'>
@@ -418,7 +418,7 @@ export default function Home() {
       </section>
 
       <section>
-        <div className=' w-full overflow-hidden  mx-auto max-w-screen-2xl p-3 text-6xl text-blue-200 mt-12 mb-4'>
+        <div className=' w-full overflow-hidden  mx-auto max-w-screen-2xl p-3 text-6xl text-darkwood-300 mt-12 mb-4'>
           <h2 className='fadeIn'>Ready To Move In</h2>
         </div>
         <div className=' w-full max-w-screen-2xl grid items-start gap-4 md:grid-cols-2 lg:grid-cols-3 px-3 m-auto'>
@@ -444,7 +444,7 @@ export default function Home() {
       </section>
 
       <section className=' mb-20'>
-        <div className=' w-full overflow-hidden  mx-auto max-w-screen-2xl p-3 text-6xl text-blue-200 mt-12 mb-4'>
+        <div className=' w-full overflow-hidden  mx-auto max-w-screen-2xl p-3 text-6xl text-darkwood-300 mt-12 mb-4'>
           <h2 className='fadeIn'>Sold out</h2>
         </div>
         <div className=' w-full max-w-screen-2xl grid items-start gap-4 md:grid-cols-2 lg:grid-cols-3 px-3 m-auto'>

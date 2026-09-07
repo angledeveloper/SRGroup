@@ -103,7 +103,7 @@ export default function ProjectCard(props) {
           <span>{props.location}</span>
           <GlobalButton
             onClick={handelOpen}
-            color='white'
+            color='dark'
             className='  ml-4 w-fit  rounded-full px-4 py-2  text-sm'
           >
             Details
@@ -135,7 +135,7 @@ export default function ProjectCard(props) {
           {props.link == 'na' ? null : (
             <Link href={props.link}>
               <GlobalButton
-                color='white'
+                color='dark'
                 className='  w-fit  rounded-full px-4 py-2.5  text-sm'
               >
                 KNOW MORE

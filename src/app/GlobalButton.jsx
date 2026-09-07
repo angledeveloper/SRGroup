@@ -43,6 +43,8 @@ export default function GlobalButton({ children, className, ...props }) {
       });
   });
 
+  const isLight = props.color === 'light';
+
   return (
     <button
       onMouseEnter={rippleOnHover}
@@ -52,9 +54,9 @@ export default function GlobalButton({ children, className, ...props }) {
       onClick={props.onClick}
       className={`uppercase ${className} 
     ${
-      props.color === 'white'
-        ? '  bg-yellow-200 text-neutral-900     '
-        : '  bg-blue-200 text-neutral-200  '
+      isLight
+        ? '  bg-travertine-300 text-espresso-noir     '
+        : '  bg-espresso-noir text-travertine-300  '
     } cursorHide
     group relative
     transition-transform duration-200 active:scale-90 `}
@@ -69,9 +71,9 @@ export default function GlobalButton({ children, className, ...props }) {
         }}
         className={` 
         ${
-          props.color === 'white'
-            ? '    bg-yellow-100 outline -outline-offset-1  outline-yellow-100 group-active:bg-yellow-200  group-active:outline-yellow-200'
-            : '   bg-blue-100 outline -outline-offset-1 outline-blue-100 group-active:bg-blue-200 group-active:outline-blue-200'
+          isLight
+            ? '    bg-travertine-100 outline -outline-offset-1  outline-travertine-100 group-active:bg-travertine-200  group-active:outline-travertine-200'
+            : '   bg-darkwood-200 outline -outline-offset-1 outline-darkwood-200 group-active:bg-darkwood-300 group-active:outline-darkwood-300'
         } 
         absolute left-0   top-0  z-10 size-full rounded-full transition-[background-color,outline]  duration-200`}
       ></span>

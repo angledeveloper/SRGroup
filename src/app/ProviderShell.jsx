@@ -101,7 +101,7 @@ export default function ProviderShell({ children }) {
           ref={backgroundRef}
           className='  fixed left-0 top-0 z-[99999] flex h-dvh w-full items-center justify-center bg-white'
         >
-          <div className=' flex size-full flex-col items-center justify-center gap-8 px-3 text-5xl font-medium text-blue-200 md:flex-row md:items-center md:justify-between md:px-8'>
+          <div className=' flex size-full flex-col items-center justify-center gap-8 px-3 text-5xl font-medium text-darkwood-300 md:flex-row md:items-center md:justify-between md:px-8'>
             <span
               ref={weBuildRef}
               className=' text-center opacity-0 md:w-full md:text-left'

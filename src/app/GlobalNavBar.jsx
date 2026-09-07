@@ -282,20 +282,20 @@ export default function GlobalNavBar() {
           <Logo className='h-[38px] md:h-[46px] w-auto' priority />
         </Link>
 
-        <div className='ml-auto hidden items-center gap-8 text-sm font-medium text-blue-200 md:flex'>
-          <Link href='/about' className='transition-colors hover:text-blue-300'>
+        <div className='ml-auto hidden items-center gap-8 text-sm font-medium text-darkwood-300 md:flex'>
+          <Link href='/about' className='transition-colors hover:text-saddle-tan'>
             About Us
           </Link>
           <Link
             href='/portfolio'
-            className='transition-colors hover:text-blue-300'
+            className='transition-colors hover:text-saddle-tan'
           >
             Our Portfolio
           </Link>
           <Link
             href='https://blog.sreddygroup.com/'
             target='_blank'
-            className='transition-colors hover:text-blue-300'
+            className='transition-colors hover:text-saddle-tan'
           >
             Blogs
           </Link>
@@ -303,7 +303,7 @@ export default function GlobalNavBar() {
 
         <Link href='/contact' className='ml-6 hidden md:block'>
           <GlobalButton
-            color='white'
+            color='dark'
             className='rounded-full px-6 py-2 text-xs font-semibold tracking-[0.15em]'
           >
             BOOK A CALL
@@ -311,15 +311,15 @@ export default function GlobalNavBar() {
         </Link>
 
         <GlobalButton
-          color='black'
+          color='dark'
           onClick={onClickMenu}
           className='ml-auto flex h-11 w-11 items-center justify-center rounded-full md:hidden'
           aria-label='Open menu'
         >
           <span className='flex h-4 w-4 flex-col justify-center gap-[4.5px]'>
-            <div ref={firstDash} className='h-px w-full bg-white'></div>
-            <div ref={secondDash} className='h-px w-full bg-white'></div>
-            <div ref={thirdDash} className='h-px w-full bg-white'></div>
+            <div ref={firstDash} className='h-px w-full bg-travertine-300'></div>
+            <div ref={secondDash} className='h-px w-full bg-travertine-300'></div>
+            <div ref={thirdDash} className='h-px w-full bg-travertine-300'></div>
           </span>
         </GlobalButton>
       </nav>
@@ -336,11 +336,11 @@ export default function GlobalNavBar() {
           className='  flex  h-[calc(100%-110px)]  items-start justify-center overflow-hidden text-4xl font-bold   md:text-4xl    lg:text-6xl'
         >
           <div className=' flex size-full flex-col items-center justify-center '>
-            <hr id='line' className=' w-full bg-blue-200' />
+            <hr id='line' className=' w-full bg-darkwood-300' />
             <Link
               onClick={onClickMenu}
               id='menuItem'
-              className=' group relative flex w-full items-center justify-center bg-white text-blue-200  hover:bg-blue-200 hover:text-white'
+              className=' group relative flex w-full items-center justify-center bg-white text-darkwood-300  hover:bg-darkwood-300 hover:text-travertine-300'
               href='/'
             >
               <div className=' relative z-10 flex w-full items-center justify-start  whitespace-nowrap px-3   py-4 '>
@@ -352,7 +352,7 @@ export default function GlobalNavBar() {
             <Link
               onClick={onClickMenu}
               id='menuItem'
-              className=' group relative flex w-full items-center justify-center bg-white text-blue-200  hover:bg-blue-200 hover:text-white'
+              className=' group relative flex w-full items-center justify-center bg-white text-darkwood-300  hover:bg-darkwood-300 hover:text-travertine-300'
               href='/about'
             >
               <div className=' relative z-10 flex w-full items-center justify-start  whitespace-nowrap px-3   py-4  '>
@@ -363,7 +363,7 @@ export default function GlobalNavBar() {
             <Link
               onClick={onClickMenu}
               id='menuItem'
-              className=' group relative flex w-full items-center justify-center bg-white text-blue-200  hover:bg-blue-200 hover:text-white'
+              className=' group relative flex w-full items-center justify-center bg-white text-darkwood-300  hover:bg-darkwood-300 hover:text-travertine-300'
               href='/portfolio'
             >
               <div className=' relative z-10 flex w-full items-center justify-start  whitespace-nowrap px-3   py-4  '>
@@ -375,7 +375,7 @@ export default function GlobalNavBar() {
             <Link
               onClick={onClickMenu}
               id='menuItem'
-              className=' group relative flex w-full items-center justify-center bg-white text-blue-200  hover:bg-blue-200 hover:text-white'
+              className=' group relative flex w-full items-center justify-center bg-white text-darkwood-300  hover:bg-darkwood-300 hover:text-travertine-300'
               href='https://blog.sreddygroup.com/'
               target='_blank'
             >
@@ -387,7 +387,7 @@ export default function GlobalNavBar() {
             <Link
               onClick={onClickMenu}
               id='menuItem'
-              className=' group relative flex w-full items-center justify-center bg-white text-blue-200  hover:bg-blue-200 hover:text-white'
+              className=' group relative flex w-full items-center justify-center bg-white text-darkwood-300  hover:bg-darkwood-300 hover:text-travertine-300'
               href='/contact'
             >
               <div className='relative z-10 flex w-full items-center justify-start  whitespace-nowrap px-3   py-4   '>
@@ -395,7 +395,7 @@ export default function GlobalNavBar() {
               </div>
             </Link>
             <hr id='line' className=' w-full bg-white' />
-            <div className=' fixed bottom-0  left-0 z-10 flex w-full flex-col items-center bg-white p-2 text-base font-bold text-blue-200 md:flex-row  md:justify-between'>
+            <div className=' fixed bottom-0  left-0 z-10 flex w-full flex-col items-center bg-white p-2 text-base font-bold text-darkwood-300 md:flex-row  md:justify-between'>
               <span>
                 RR Landmarks all right reserved {new Date().getFullYear()}
               </span>

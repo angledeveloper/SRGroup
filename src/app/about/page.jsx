@@ -90,7 +90,7 @@ export default function About() {
           </p>
           <Link href='/portfolio'>
             <GlobalButton
-              color='white'
+              color='dark'
               className='w-fit rounded-full px-10 py-2 my-10 text-base md:px-12 md:py-2 md:text-lg'
             >
               Our Work
@@ -106,9 +106,9 @@ export default function About() {
               className='flex items-center gap-10 whitespace-nowrap'
               aria-hidden={dup === 2}
             >
-              <p className='text-4xl font-light text-blue-200 md:text-6xl lg:text-7xl'>
+              <p className='text-4xl font-light text-darkwood-300 md:text-6xl lg:text-7xl'>
                 Clarity. Clear plans.{' '}
-                <span className='text-yellow-200'>Clear timelines.</span> Clear
+                <span className='text-saddle-tan'>Clear timelines.</span> Clear
                 delivery.
               </p>
             </div>
@@ -178,7 +178,7 @@ export default function About() {
             {/* Rajendra Copy */}
             <div className='lg:col-span-5 xl:col-span-4 h-full flex items-center'>
               <div>
-                <h4 className='text-2xl md:text-3xl font-medium text-yellow-200'>
+                <h4 className='text-2xl md:text-3xl font-medium text-darkwood-300'>
                   Mr. Rajendra Reddy
                 </h4>
                 <p className='mt-1 text-sm md:text-base text-zinc-400 font-regular'>
@@ -213,7 +213,7 @@ export default function About() {
             {/* Shailendra Copy - second on mobile, left on desktop */}
             <div className='order-2 lg:order-1 lg:col-span-5 xl:col-span-4 h-full flex items-center'>
               <div>
-                <h4 className='text-2xl md:text-3xl font-medium text-yellow-200'>
+                <h4 className='text-2xl md:text-3xl font-medium text-darkwood-300'>
                   Mr. Shailendra Reddy
                 </h4>
                 <p className='mt-1 text-sm md:text-base text-zinc-400 font-regular'>
@@ -274,7 +274,7 @@ export default function About() {
             {/* Onkar Copy */}
             <div className='lg:col-span-5 xl:col-span-4 h-full flex items-center'>
               <div>
-                <h4 className='text-2xl md:text-3xl font-medium text-yellow-200'>
+                <h4 className='text-2xl md:text-3xl font-medium text-darkwood-300'>
                   Mr. Onkar Reddy
                 </h4>
                 <p className='mt-1 text-sm md:text-base text-zinc-400 font-regular'>
@@ -304,12 +304,12 @@ export default function About() {
       {/* What drives our work section */}
       <section className='w-full bg-neutral-50'>
         <div className='mx-auto max-w-screen-2xl px-4 py-12 md:px-8 md:py-16'>
-          <h3 className='text-3xl font-medium text-blue-200 md:text-4xl'>
+          <h3 className='text-3xl font-medium text-darkwood-300 md:text-4xl'>
             What Drives Our Work
           </h3>
           <div className='mt-10 grid grid-cols-1 gap-10 md:grid-cols-2 md:gap-12'>
             <div className='block gap-4'>
-              <span className='mb-3 flex h-5 w-5 items-center justify-center rounded-sm bg-yellow-200 text-[10px] font-bold text-blue-200'>
+              <span className='mb-3 flex h-5 w-5 items-center justify-center rounded-sm bg-darkwood-300 text-[10px] font-bold text-travertine-300'>
                 1
               </span>
               <div>
@@ -323,7 +323,7 @@ export default function About() {
               </div>
             </div>
             <div className='block gap-4'>
-              <span className='mb-3 flex h-5 w-5 items-center justify-center rounded-sm bg-yellow-200 text-[10px] font-bold text-blue-200'>
+              <span className='mb-3 flex h-5 w-5 items-center justify-center rounded-sm bg-darkwood-300 text-[10px] font-bold text-travertine-300'>
                 2
               </span>
               <div>
@@ -337,7 +337,7 @@ export default function About() {
               </div>
             </div>
             <div className='block gap-4'>
-              <span className='mb-3 flex h-5 w-5 items-center justify-center rounded-sm bg-yellow-200 text-[10px] font-bold text-blue-200'>
+              <span className='mb-3 flex h-5 w-5 items-center justify-center rounded-sm bg-darkwood-300 text-[10px] font-bold text-travertine-300'>
                 3
               </span>
               <div>
@@ -351,7 +351,7 @@ export default function About() {
               </div>
             </div>
             <div className='block gap-4'>
-              <span className='mb-3 flex h-5 w-5 items-center justify-center rounded-sm bg-yellow-200 text-[10px] font-bold text-blue-200'>
+              <span className='mb-3 flex h-5 w-5 items-center justify-center rounded-sm bg-darkwood-300 text-[10px] font-bold text-travertine-300'>
                 4
               </span>
               <div>
@@ -365,7 +365,7 @@ export default function About() {
               </div>
             </div>
             <div className='block gap-4'>
-              <span className='mb-3 flex h-5 w-5 items-center justify-center rounded-sm bg-yellow-200 text-[10px] font-bold text-blue-200'>
+              <span className='mb-3 flex h-5 w-5 items-center justify-center rounded-sm bg-darkwood-300 text-[10px] font-bold text-travertine-300'>
                 5
               </span>
               <div>
@@ -379,7 +379,7 @@ export default function About() {
               </div>
             </div>
             <div className='block gap-4'>
-              <span className='mb-3 flex h-5 w-5 items-center justify-center rounded-sm bg-yellow-200 text-[10px] font-bold text-blue-200'>
+              <span className='mb-3 flex h-5 w-5 items-center justify-center rounded-sm bg-darkwood-300 text-[10px] font-bold text-travertine-300'>
                 6
               </span>
               <div>

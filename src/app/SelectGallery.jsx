@@ -23,7 +23,7 @@ export default function SelectGalLery() {
             meticulously designed commercial spaces, where light, space, and
             positive Vastu unite.
           </p>
-          <h4 className=' text-2xl font-bold text-yellow-200 md:text-4xl lg:text-5xl'>
+          <h4 className=' text-2xl font-bold text-saddle-tan md:text-4xl lg:text-5xl'>
             Commercial
           </h4>
         </div>
@@ -43,7 +43,7 @@ export default function SelectGalLery() {
             Discover your perfect harmony: Explore RR Landmarks&apos; exquisite
             residences where Vastu, space, and luxury converge.
           </p>
-          <h4 className=' text-2xl font-bold text-yellow-200 md:text-4xl lg:text-5xl'>
+          <h4 className=' text-2xl font-bold text-saddle-tan md:text-4xl lg:text-5xl'>
             Residential
           </h4>
         </div>
